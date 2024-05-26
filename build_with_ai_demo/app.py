@@ -31,7 +31,7 @@ safety_settings = [
 ]
 
 # Configure the API Key
-genai.configure(api_key="AIzaSyAPxs64F2IEHrRED_px8NLFutZ6Nq_kfy8")
+genai.configure(api_key="YOUR_SECRET_KEY_HERE")
 
 # Initialize the Model
 model = genai.GenerativeModel(model_name="gemini-pro-vision",
